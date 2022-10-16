@@ -1,0 +1,21 @@
+.moviesPage {
+    background: url("../assets/Background.png") center center / cover no-repeat fixed;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.moviesPage > h3 {
+    color: white;
+    padding: 30px;
+}
+
+.moviesPage__results--wrapper {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+}
